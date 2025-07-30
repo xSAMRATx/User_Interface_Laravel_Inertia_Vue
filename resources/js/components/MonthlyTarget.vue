@@ -7,8 +7,8 @@ import { MoveDown, MoveUp } from 'lucide-vue-next';
 
     <div class="flex-1 p-4 flex flex-col justify-between">
       <div class="flex flex-col space-x-4 mb-4">
-        <p class="text-xl font-bold text-black mb-2">Monthly Target</p>
-        <p class="text-gray-400 text-md font-medium">Target you've set for each month</p>
+        <p class="text-base font-semibold text-gray-900 mb-2">Monthly Target</p>
+        <p class="text-gray-500 text-sm">Target you've set for each month</p>
       </div>
 
       <div class="flex flex-col items-center justify-center flex-grow">
@@ -24,7 +24,7 @@ import { MoveDown, MoveUp } from 'lucide-vue-next';
           </div>
         </div>
 
-        <p class="mt-4 text-xl text-gray-400 text-center w-3/4">
+        <p class="mt-4 text-lg text-gray-500 text-center w-3/4">
           You’ve earn $3287 today, its higher than last month. of your goal for this month. Keep up your good work!
         </p>
       </div>

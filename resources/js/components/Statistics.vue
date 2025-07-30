@@ -72,7 +72,7 @@ const series = ref([
   <div class="bg-white p-6 rounded-xl shadow-sm border">
     <div class="flex justify-between items-center mb-4">
       <div>
-        <h2 class="text-lg font-semibold text-gray-900">Statistics</h2>
+        <h2 class="text-base font-semibold text-gray-900">Statistics</h2>
         <p class="text-sm text-gray-500">Target you’ve set for each month</p>
       </div>
       <div class="flex items-center space-x-4">

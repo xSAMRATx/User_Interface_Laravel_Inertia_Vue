@@ -54,6 +54,6 @@ const series = ref([
 </script>
 
 <template>
-  <p class="text-xl font-bold text-gray-800 mb-2">Monthly Sales</p>
+  <p class="text-base font-semibold text-gray-900 mb-2">Monthly Sales</p>
   <ApexChart type="bar" height="250" :options="chartOptions" :series="series" />
 </template>
