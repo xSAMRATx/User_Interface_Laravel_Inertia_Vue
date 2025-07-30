@@ -5,7 +5,7 @@ import { Head } from '@inertiajs/vue3';
 import PlaceholderPattern from '../components/PlaceholderPattern.vue';
 import StatCard from '@/components/StatCard.vue';
 import MonthlyTarget from '@/components/MonthlyTarget.vue'
-import { Users, ShoppingCart, Target, BarChart } from 'lucide-vue-next'
+import { Users, Box , Target, BarChart } from 'lucide-vue-next'
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
@@ -20,12 +20,12 @@ const breadcrumbs: BreadcrumbItem[] = [
     <Head title="Dashboard" />
 
     <AppLayout :breadcrumbs="breadcrumbs">
-        <div class="flex h-full flex-1 flex-col gap-4 rounded-xl p-4 overflow-x-auto" style="border: 1px solid red;">
+        <div class="flex h-full flex-1 flex-col gap-4 rounded-xl p-4 overflow-x-auto">
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Row 1 -->
                 <StatCard title="Customers" value="3,782" :trend="11.01" :icon="Users" class="col-span-1 row-span-1" />
-                <StatCard title="Orders" value="5,359" :trend="-9.05" :icon="ShoppingCart"
+                <StatCard title="Orders" value="5,359" :trend="-9.05" :icon="Box"
                     class="col-span-1 row-span-1" />
                 <!-- Monthly Target (custom component) -->
                 <MonthlyTarget class="col-span-2 row-span-2" />

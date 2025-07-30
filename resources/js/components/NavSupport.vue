@@ -22,7 +22,7 @@ const page = usePage();
 
 <template>
     <SidebarGroup class="px-2 py-0">
-        <SidebarGroupLabel>MENU</SidebarGroupLabel>
+        <SidebarGroupLabel>SUPPORT</SidebarGroupLabel>
         <SidebarMenu>
             <Collapsible v-for="item in items" :key="item.title" :defaultOpen="item.subItems?.some((subItem) => page.url === subItem.href)" class="group/collapsible">
                 <SidebarMenuItem>
