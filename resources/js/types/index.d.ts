@@ -18,21 +18,7 @@ export interface NavItem {
     subItems?: SubItems[];
 }
 
-export interface SupportNavItem {
-    title: string;
-    href: string;
-    icon?: LucideIcon;
-    isActive?: boolean;
-    supportSubItems?: SupportSubItems[];
-}
-
 export interface SubItems {
-    title: string;
-    href: string;
-    isActive?: boolean;
-}
-
-export interface SupportSubItems {
     title: string;
     href: string;
     isActive?: boolean;

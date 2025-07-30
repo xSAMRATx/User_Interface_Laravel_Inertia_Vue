@@ -6,7 +6,6 @@ import NavOther from '@/components/NavOther.vue';
 import NavUser from '@/components/NavUser.vue';
 import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@/components/ui/sidebar';
 import { type NavItem } from '@/types';
-import { type SupportNavItem } from '@/types';
 import { Link } from '@inertiajs/vue3';
 import { BookOpen, Folder, LayoutGrid, UsersRound, Box, Calendar, CircleUser, Layers, Sheet,BookCopy, SquareMenu, Mail, MessageCircleMore, StickyNote, ChartPie, KeyRound } from 'lucide-vue-next';
 import AppLogo from './AppLogo.vue';

@@ -7,7 +7,7 @@
       </div>
 
       <!-- Info -->
-      <div class="text-xs text-gray-500">{{ title }}</div>
+      <div class="text-md text-gray-500">{{ title }}</div>
       <div class="text-3xl font-semibold text-gray-900">{{ value }}</div>
 
     </div>
