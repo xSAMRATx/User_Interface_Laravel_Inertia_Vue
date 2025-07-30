@@ -7,6 +7,7 @@ import StatCard from '@/components/StatCard.vue';
 import MonthlyTarget from '@/components/MonthlyTarget.vue';
 import { Users, Box , Target, BarChart } from 'lucide-vue-next'
 import MonthlySalesChart from '@/components/MonthlySalesChart.vue';
+import Statistics from '@/components/Statistics.vue';
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
@@ -36,7 +37,9 @@ const breadcrumbs: BreadcrumbItem[] = [
             </div>
 
             <!-- Charts -->
-            <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-6">
+            <div class="grid grid-cols-1 xl:grid-cols-1 gap-6 mb-6">
+                    <Statistics />
+
                 <div class="p-6 bg-white rounded-xl shadow">Monthly Sales Chart</div>
                 <div class="p-6 bg-white rounded-xl shadow">Statistics Line Chart</div>
             </div>
