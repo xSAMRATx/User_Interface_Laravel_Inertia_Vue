@@ -10,6 +10,7 @@ import MonthlySalesChart from '@/components/MonthlySalesChart.vue';
 import Statistics from '@/components/Statistics.vue';
 import CustomersDemographic from '@/components/CustomersDemographic.vue';
 import RecentOrders from '@/components/RecentOrders.vue';
+import Navbar from '@/components/Navbar.vue';
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
@@ -22,7 +23,7 @@ const breadcrumbs: BreadcrumbItem[] = [
 <template>
 
     <Head title="Dashboard" />
-
+    
     <AppLayout :breadcrumbs="breadcrumbs">
         <div class="flex h-full flex-1 flex-col gap-4 rounded-xl p-4 overflow-x-auto">
 

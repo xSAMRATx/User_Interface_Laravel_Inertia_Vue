@@ -13,12 +13,12 @@ const breadcrumbs: BreadcrumbItem[] = [
 </script>
 
 <template>
+
     <Head title="Customers" />
 
     <AppLayout :breadcrumbs="breadcrumbs">
         <div class="p-4">
-            <h1>Heloo Bro I am your customers</h1>
-           <Link :href="route('customers.create')"><Button>Create Customer</Button></Link>
+            <Link :href="route('customers.create')"><Button>Create Customer</Button></Link>
         </div>
     </AppLayout>
 </template>
