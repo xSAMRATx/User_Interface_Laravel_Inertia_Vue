@@ -17,18 +17,6 @@ Replicate the provided Figma design pixel-perfectly using:
 
 ---
 
-## ⚙️ Technologies Used
-
-| Technology  | Purpose              |
-|-------------|----------------------|
-| Laravel     | Backend              |
-| Vue 3       | Frontend framework   |
-| Inertia.js  | SPA routing bridge   |
-| Tailwind CSS| UI design & styling  |
-| Vite        | Asset bundling       |
-
----
-
 ## 🚀 Installation
 
 ```bash
