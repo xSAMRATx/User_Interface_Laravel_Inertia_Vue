@@ -14,7 +14,7 @@ Replicate the provided Figma design pixel-perfectly using:
 - `Vue 3` for the frontend
 - `Inertia.js` as the bridge between backend and frontend
 - `Tailwind CSS` for styling
-- `sqlite For DB Connection
+- `sqlite` for db connection
 
 ---
 
