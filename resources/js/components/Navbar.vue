@@ -15,7 +15,7 @@ import AppLogo from './AppLogo.vue';
         </div>
 
         <button type="button" class="p-2 rounded-full hover:bg-gray-100" aria-label="View notifications">
-          <Bell class="w-6 h-6 text-gray-600" />
+          <Ellipsis class="w-6 h-6 text-gray-600" />
         </button>
       </div>
 
