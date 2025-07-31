@@ -32,9 +32,9 @@ Replicate the provided Figma design pixel-perfectly using:
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/erp-task2-ui.git
+git clone [https://github.com/your-username/erp-task2-ui.git](https://github.com/xSAMRATx/User_Interface_Laravel_Inertia_Vue.git)
 
-cd erp-task2-ui
+cd User_Interface_Laravel_Inertia_Vue
 
 composer install
 
